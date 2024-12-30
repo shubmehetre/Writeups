@@ -1,0 +1,15 @@
+hacker@talking-web~level29:~$ nc 127.0.0.1 80
+POST / HTTP/1.1
+Host: localhost
+Content-Type: application/json
+Content-Length: 119
+
+{"a":"2ce6518a2444ccdc37714c9eafa25a65", "b":{"c":"984c23f2", "d":["900e910c", "66a6d44c 8eb6c923&b97370f6#9d1689ae"]}}
+HTTP/1.1 200 OK
+Server: Werkzeug/3.0.6 Python/3.8.10
+Date: Mon, 30 Dec 2024 17:07:18 GMT
+Content-Length: 58
+Server: pwn.college
+Connection: close
+
+pwn.college{MU69fMtTuWlpO5jDe8cwRC0s10b.dZTOyMDLwIDN5czW}

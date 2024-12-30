@@ -1,0 +1,7 @@
+# just run below code
+
+import requests
+
+r = requests.post("http://127.0.0.1",headers={"Content-Type":"application/json"}, data='{"a":"2192a8cf6a391156b3f33e391aad17fb", "b":{"c":"c7284393", "d":["a979dcc7", "c4ef1ff5 b840b196&d139f83e#2dd0082c"]}}')
+
+print(r.content)
